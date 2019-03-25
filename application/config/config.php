@@ -23,11 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-<<<<<<< HEAD
+
 $config['base_url'] = 'http://localhost/cijson/';
-=======
-$config['base_url'] = '';
->>>>>>> 8db44a9c8d2ce084027318913c25668fc0a076ae
 
 /*
 |--------------------------------------------------------------------------
