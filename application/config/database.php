@@ -82,15 +82,11 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-<<<<<<< HEAD
+
 	'username' => 'root',
 	'password' => '',
 	'database' => 'rest_server',
-=======
-	'username' => '',
-	'password' => '',
-	'database' => '',
->>>>>>> 8db44a9c8d2ce084027318913c25668fc0a076ae
+
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
