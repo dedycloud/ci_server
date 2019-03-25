@@ -6,8 +6,8 @@
     'protocol' => 'smtp',  
     'smtp_host' => 'ssl://smtp.googlemail.com',  
     'smtp_port' => 465,  
-    'smtp_user' => 'dedyindra120@gmail.com',   
-    'smtp_pass' => '20121997',   
+    'smtp_user' => 'xxxxxx@gmail.com',   
+    'smtp_pass' => 'xxxxxxx',   
     'mailtype' => 'html',   
     'charset' => 'iso-8859-1'  
    );  
