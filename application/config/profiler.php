@@ -9,7 +9,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | data are displayed when the Profiler is enabled.
 | Please see the user guide for info:
 |
-<<<<<<< HEAD
+
 |	http://codeigniter.com/user_guide/general/profiling.html
 |
 */
@@ -25,8 +25,4 @@ $config['eloquent']             = FALSE;
 $config['uri_string']           = TRUE;
 $config['view_data']            = TRUE;
 $config['query_toggle_count']   = 1000;
-=======
-|	https://codeigniter.com/user_guide/general/profiling.html
-|
-*/
->>>>>>> 8db44a9c8d2ce084027318913c25668fc0a076ae
+
