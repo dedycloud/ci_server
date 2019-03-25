@@ -11,11 +11,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | and its corresponding controller class/method. The segments in a
 | URL normally follow this pattern:
 |
-<<<<<<< HEAD
+
 | example.com/class/method/id/
-=======
-|	example.com/class/method/id/
->>>>>>> 8db44a9c8d2ce084027318913c25668fc0a076ae
+
 |
 | In some instances, however, you may want to remap this relationship
 | so that a different class/function is called than the one
@@ -23,11 +21,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 | Please see the user guide for complete details:
 |
-<<<<<<< HEAD
+
 | https://codeigniter.com/user_guide/general/routing.html
-=======
-|	https://codeigniter.com/user_guide/general/routing.html
->>>>>>> 8db44a9c8d2ce084027318913c25668fc0a076ae
+
 |
 | -------------------------------------------------------------------------
 | RESERVED ROUTES
@@ -35,30 +31,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 | There are three reserved routes:
 |
-<<<<<<< HEAD
+
 | $route['default_controller'] = 'welcome';
-=======
-|	$route['default_controller'] = 'welcome';
->>>>>>> 8db44a9c8d2ce084027318913c25668fc0a076ae
+
 |
 | This route indicates which controller class should be loaded if the
 | URI contains no data. In the above example, the "welcome" class
 | would be loaded.
 |
-<<<<<<< HEAD
+
 | $route['404_override'] = 'errors/page_missing';
-=======
-|	$route['404_override'] = 'errors/page_missing';
->>>>>>> 8db44a9c8d2ce084027318913c25668fc0a076ae
+
 |
 | This route will tell the Router which controller/method to use if those
 | provided in the URL cannot be matched to a valid route.
 |
-<<<<<<< HEAD
+
 | $route['translate_uri_dashes'] = FALSE;
-=======
-|	$route['translate_uri_dashes'] = FALSE;
->>>>>>> 8db44a9c8d2ce084027318913c25668fc0a076ae
+
 |
 | This is not exactly a route, but allows you to automatically route
 | controller and method names that contain dashes. '-' isn't a valid
@@ -66,7 +56,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | When you set this option to TRUE, it will replace ALL dashes in the
 | controller and method URI segments.
 |
-<<<<<<< HEAD
+
 | Examples: my-controller/index -> my_controller/index
 |   my-controller/my-method -> my_controller/my_method
 */
@@ -81,11 +71,4 @@ $route['translate_uri_dashes'] = TRUE;
 */
 $route['api/example/users/(:num)'] = 'api/example/users/id/$1'; // Example 4
 $route['api/example/users/(:num)(\.)([a-zA-Z0-9_-]+)(.*)'] = 'api/example/users/id/$1/format/$3$4'; // Example 8
-=======
-| Examples:	my-controller/index	-> my_controller/index
-|		my-controller/my-method	-> my_controller/my_method
-*/
-$route['default_controller'] = 'welcome';
-$route['404_override'] = '';
-$route['translate_uri_dashes'] = FALSE;
->>>>>>> 8db44a9c8d2ce084027318913c25668fc0a076ae
+
